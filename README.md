@@ -1,32 +1,21 @@
 # House Prices Regression and Mall Customer Segmentation Analysis
 
 ## Business Understanding
-Tujuan dari analisis ini adalah:
-1. Untuk memprediksi harga rumah berdasarkan fitur-fitur utama menggunakan model regresi linear.
-2. Untuk mengelompokkan pelanggan pusat perbelanjaan ke dalam beberapa cluster berdasarkan usia, pendapatan tahunan, dan skor pengeluaran mereka.
+Memprediksi harga rumah berdasarkan berbagai fitur seperti kualitas keseluruhan, luas area, jumlah garasi, dan sebagainya. Dengan prediksi harga rumah yang akurat agar agen property dan pembeli dapat membuat keputusan dari informasi.
 
 ## Data Understanding
-### House Prices Dataset
-Dataset ini berisi informasi tentang harga rumah dan fitur-fitur yang mempengaruhinya.
-
-### Mall Customer Segmentation Dataset
-Dataset ini berisi informasi tentang pelanggan dari sebuah pusat perbelanjaan, termasuk usia, jenis kelamin, pendapatan tahunan, dan skor pengeluaran.
+Data set tersebut berisi fitur-fitur seperti lokasi area, luas garasi, luas area, lokasi jalan, jenis-jenis kamar mandi, tipe garasi, dan fitur-fitur penunjang lainnya.
 
 ## Data Preparation
 Langkah-langkah yang dilakukan meliputi:
-- Seleksi fitur yang relevan
-- Normalisasi fitur untuk clustering
+- Exploration Data Analist: Proses data ini meliputi identifikasi kosong, 
+- Transformasi data.
 
 ## Modelling
-1. *Regresi Linear:* Digunakan untuk memprediksi harga rumah berdasarkan fitur-fitur utama.
-2. *Clustering (KMeans):* Digunakan untuk mengelompokkan pelanggan berdasarkan usia, pendapatan tahunan, dan skor pengeluaran.
+Model yang digunakan adalah simple linear regression, multiple linear regression, ridge regression, lasso regression, KNeighbors Regression, Elastic Net, Gradien Boosting Regression, random forest regression, dan generalized linear model.
 
 ## Evaluation
-### House Prices Regression
-Model regresi dievaluasi menggunakan Mean Squared Error (MSE).
-
-### Mall Customer Segmentation
-Model clustering dievaluasi dengan visualisasi cluster dan analisis distribusi cluster.
+Evaluation menggunakan Mean Squared Estimator (MSE)
 
 ## Deployment
-Hasil analisis ini dapat digunakan oleh tim pemasaran untuk membuat strategi pemasaran yang lebih tepat sasaran berdasarkan segmentasi pelanggan, dan oleh pengembang real estate untuk memperkirakan harga rumah.
+Modeel tersebut dapat diimplementasikan sebagai pertimbangan pada perusahaan property dan pembeli untuk menentukan harga yang sesuai. Untuk kedepannya model dapat disederhanakan dengan menggunakan beberapa variabel pada fitur yang cukup penting dengan mengurangi beberapa fitur yang kurang dibutuhkan (hahahahhahaa👍).
